@@ -24,7 +24,7 @@ from discord.ext.commands.view import StringView
 from emoji import is_emoji
 from packaging.version import Version
 
-
+keep_alive()
 try:
     # noinspection PyUnresolvedReferences
     from colorama import init
